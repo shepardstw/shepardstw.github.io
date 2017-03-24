@@ -1,0 +1,12 @@
+$(".fa-twitter").click(function(){
+    location.href="https://twitter.com/savetheworld109";
+})
+$(".fa-instagram").click(function(){
+    location.href="https://instagram.com/sstw";
+})
+$(".fa-youtube").click(function(){
+    location.href="https://youtube.com/sstw";
+})
+$(".fa-envelope").click(function(){
+    location.href="mailto:shepardsavetheworld@gmail.com";
+})
