@@ -1,0 +1,184 @@
+body {
+    background-image: -webkit-linear-gradient(45deg, #b066fe, #63e2ff);
+    background-image: linear-gradient(45deg, #b066fe, #63e2ff);
+    background-attachment: fixed;
+}
+* {
+    transition: all .5s;
+    color: white;
+    font-family: "Product Sans";
+}
+nav {
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+nav > div > * {
+    
+    display: inline-block !important;
+ 
+    position: relative;
+}
+nav > div.title > * {
+    float: right;
+    text-align: right;
+}
+nav > div.buttons > div {
+    float: left;
+}
+.grid > * {
+    
+    display: inline-block !important;
+    float: left;
+}
+.btn-fancy {
+    background-image: -webkit-linear-gradient(45deg, #00ffa1, aqua);
+    background-image: linear-gradient(45deg, #00ffa1, aqua);
+    border: none;
+    -webkit-box-shadow: 0px 0px 43px -15px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 43px -15px rgba(255,255,255,1);
+    box-shadow: 0px 0px 43px -15px rgba(255,255,255,1);
+    color: #29ABE2;
+    font-weight: 700;
+}
+.btn-fancy:hover {
+    background-image: -webkit-linear-gradient(45deg, #00ffa1, aqua);
+    background-image: linear-gradient(45deg, #00ffa1, aqua);
+    border: none;
+    -webkit-box-shadow: 0px 0px 28px -2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 28px -2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 28px -2px rgba(255,255,255,1);
+    font-weight: 700;
+    color: #3A3897;
+}
+.buttons .btn {
+    margin: 0px;
+}
+.jumbotron {
+    background: url("../img/thumbnail.png");
+    background-size: cover;
+    background-position: center;
+}
+.information {
+    background: #F5F5F5;
+    width: 100%;
+    padding: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.information * {
+    color: #383838 !important;
+}
+.social {
+    background-image: -webkit-linear-gradient(45deg, #009245, #fcee21);
+    background-image: linear-gradient(45deg, #009245, #fcee21);
+    width: 100%;
+    padding: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    background-attachment: fixed;
+}
+.social * {
+    color: white !important;
+}
+.social h1 {
+    border-style: solid;
+    border-color: rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.2);
+    border-radius: 500px;
+}
+.social i {
+    padding: 20px;
+}
+
+.fa-twitter:hover {
+    color: #00A8C5 !important;
+    cursor: pointer;
+}
+.fa-instagram:hover {
+    color: #ED1E79 !important;
+    cursor: pointer;
+}
+.fa-youtube:hover {
+    color: red !important;
+    cursor: pointer;
+}
+.fa-envelope:hover {
+    color: #5A5454 !important;
+    cursor: pointer;
+}
+.videos {
+    background-image: -webkit-linear-gradient(180deg, #333, #481f46);
+    background-image: linear-gradient(180deg, #333, #481f46);
+    width: 100%;
+    padding: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+.videos * {
+    color: #E6E6E6 !important;
+}
+.fa-search {
+    margin-top: 2.5px;
+    position: absolute;
+    z-index:2;
+}
+.search {
+    font-family: "Product Sans";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: transparent;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: grey;
+    outline: none;
+    padding-left: 50px;
+}
+.search:active,.search:hover, .search:focus {
+    border-bottom-color: white !important;
+}
+::selection {
+    color: #45145A;
+    background: #00FFA1;
+    outline: #45145A;
+}
+.form .black *{
+    color: black !important;
+}
+@media (max-width: 767px) {
+    nav > div.title > * {
+        float: none;
+        text-align: center;
+        
+        width: 100%;
+    }
+    nav > div.buttons > div {
+        transform: translateX(-50%);
+        margin-left: 50%;
+        position: relative;
+    }
+    nav > div.buttons > div * {
+        position: relative;
+    }
+}
+@media (max-width: 634px) {
+    nav > div.title > * {
+        float: none;
+        text-align: left;
+        
+        width: 100%;
+    }
+    nav > div.buttons > div {
+        transform: initial;
+        margin-left: initial;
+        position: relative;
+    }
+}
