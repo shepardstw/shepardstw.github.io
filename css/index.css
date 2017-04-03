@@ -194,3 +194,7 @@ nav > div.buttons > div {
         position: relative;
     }
 }
+
+input {
+    font-family: "Product Sans"
+}
