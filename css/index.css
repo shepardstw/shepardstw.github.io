@@ -198,3 +198,7 @@ nav > div.buttons > div {
 input {
     font-family: "Product Sans"
 }
+
+section {
+    display: inline-block;
+}
