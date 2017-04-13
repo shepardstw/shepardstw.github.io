@@ -135,6 +135,10 @@ nav > div.buttons > div {
 .videos * {
     color: #E6E6E6 !important;
 }
+.videos .gird > div {
+    padding-top: 20px;
+}
+
 .fa-search {
     margin-top: 2.5px;
     position: absolute;
